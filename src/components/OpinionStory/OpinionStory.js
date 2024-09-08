@@ -26,6 +26,10 @@ const Link = styled.a`
   &:last-of-type {
     border-bottom: revert;
   }
+
+  @media ${QUERIES.tabletOnly} {
+    border: revert;
+  }
 `;
 
 const Wrapper = styled.article`
