@@ -35,9 +35,13 @@ const SpecialtyStoryGrid = () => {
           Sports
         </SectionTitle>
         <SportsStories>
-          {SPORTS_STORIES.map((data) => (
-            <MiniStory key={data.id} {...data} />
-          ))}
+          <SportContainer>
+            <SportList>
+              {SPORTS_STORIES.map((data) => (
+                <MiniStory key={data.id} {...data} />
+              ))}
+            </SportList>
+          </SportContainer>
         </SportsStories>
       </SportsSection>
     </Wrapper>
@@ -49,12 +53,29 @@ const Wrapper = styled.div`
   gap: 48px;
 `;
 
-const MarketsSection = styled.section``;
+const MarketsSection = styled.section`
+`;
 
-const MarketCards = styled.div``;
+const MarketCards = styled.div`
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(min(184px, 100%), 1fr));
+  gap: 16px;
+`;
 
 const SportsSection = styled.section``;
 
-const SportsStories = styled.div``;
+const SportsStories = styled.div`
+  display: grid;
+  grid-template-columns: 1fr;
+`;
+
+const SportContainer = styled.div`
+  overflow: auto;
+`;
+
+const SportList = styled.div`
+  display: flex;
+  gap: 16px;
+`
 
 export default SpecialtyStoryGrid;

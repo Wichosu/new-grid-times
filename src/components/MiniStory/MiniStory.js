@@ -16,6 +16,7 @@ const Wrapper = styled.article`
   display: flex;
   flex-direction: column;
   gap: 8px;
+  width: 220px; 
 `;
 
 const Image = styled.img`
