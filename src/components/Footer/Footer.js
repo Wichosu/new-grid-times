@@ -9,120 +9,124 @@ const Footer = () => {
   return (
     <Wrapper>
       <MaxWidthWrapper>
-        <TopRow>
-          <nav>
-            <TopNavList>
-              <li>
-                <a href="/about">About</a>
-              </li>
-              <li>
-                <a href="/press">Press Releases</a>
-              </li>
-              <li>
-                <a href="/contact">Contact Us</a>
-              </li>
-            </TopNavList>
-          </nav>
-          <Social>
-            <a href="/">
-              <VisuallyHidden>
-                Visit The Grid Times on Facebook
-              </VisuallyHidden>
-              <Facebook size={20} />
-            </a>
-            <a href="/">
-              <VisuallyHidden>
-                Visit The Grid Times on Twitter
-              </VisuallyHidden>
-              <Twitter size={20} />
-            </a>
-          </Social>
-        </TopRow>
-        <MainNavArea>
-          <nav>
-            <MainNavHeading>Discover Content</MainNavHeading>
-            <MainNavList>
-              <li>
-                <a href="/pol">Politics</a>
-              </li>
-              <li>
-                <a href="/wrl">World</a>
-              </li>
-              <li>
-                <a href="/fin">Financial</a>
-              </li>
-              <li>
-                <a href="/spo">Sports and Entertainment</a>
-              </li>
-              <li>
-                <a href="/oped">Opinion and Editorial</a>
-              </li>
-            </MainNavList>
-          </nav>
-          <nav>
-            <MainNavHeading>Regional Websites</MainNavHeading>
-            <MainNavList>
-              <li>
-                <a href="/us">New Grid United States</a>
-              </li>
-              <li>
-                <a href="/eu">New Grid Europe</a>
-              </li>
-              <li>
-                <a href="/asia">New Grid Asia</a>
-              </li>
-              <li>
-                <a href="/mars">New Grid Mars and Beyond</a>
-              </li>
-              <li>
-                <a href="/au">New Grid Australia</a>
-              </li>
-            </MainNavList>
-          </nav>
-          <nav>
-            <MainNavHeading>Careers</MainNavHeading>
-            <MainNavList>
-              <li>
-                <a href="/pos">Open Positions</a>
-              </li>
-              <li>
-                <a href="/team">Meet the team</a>
-              </li>
-              <li>
-                <a href="/culture">Company Culture</a>
-              </li>
-            </MainNavList>
-          </nav>
-          <nav>
-            <MainNavHeading>Legal and Privacy</MainNavHeading>
-            <MainNavList>
-              <li>
-                <a href="/privacy">Privacy Policy</a>
-              </li>
-              <li>
-                <a href="/🍪">Use of cookies</a>
-              </li>
-              <li>
-                <a href="/manage">Manage cookies</a>
-              </li>
-              <li>
-                <a href="/legal">Legal notice</a>
-              </li>
-              <li>
-                <a href="/tos">Terms and Conditions</a>
-              </li>
-            </MainNavList>
-          </nav>
-        </MainNavArea>
+        <TopGridWrapper>
+          <TopRow>
+            <nav>
+              <TopNavList>
+                <li>
+                  <a href="/about">About</a>
+                </li>
+                <li>
+                  <a href="/press">Press Releases</a>
+                </li>
+                <li>
+                  <a href="/contact">Contact Us</a>
+                </li>
+              </TopNavList>
+            </nav>
+            <Social>
+              <a href="/">
+                <VisuallyHidden>
+                  Visit The Grid Times on Facebook
+                </VisuallyHidden>
+                <Facebook size={20} />
+              </a>
+              <a href="/">
+                <VisuallyHidden>
+                  Visit The Grid Times on Twitter
+                </VisuallyHidden>
+                <Twitter size={20} />
+              </a>
+            </Social>
+          </TopRow>
+          <MainNavArea>
+            <nav>
+              <MainNavHeading>Discover Content</MainNavHeading>
+              <MainNavList>
+                <li>
+                  <a href="/pol">Politics</a>
+                </li>
+                <li>
+                  <a href="/wrl">World</a>
+                </li>
+                <li>
+                  <a href="/fin">Financial</a>
+                </li>
+                <li>
+                  <a href="/spo">Sports and Entertainment</a>
+                </li>
+                <li>
+                  <a href="/oped">Opinion and Editorial</a>
+                </li>
+              </MainNavList>
+            </nav>
+            <nav>
+              <MainNavHeading>Regional Websites</MainNavHeading>
+              <MainNavList>
+                <li>
+                  <a href="/us">New Grid United States</a>
+                </li>
+                <li>
+                  <a href="/eu">New Grid Europe</a>
+                </li>
+                <li>
+                  <a href="/asia">New Grid Asia</a>
+                </li>
+                <li>
+                  <a href="/mars">New Grid Mars and Beyond</a>
+                </li>
+                <li>
+                  <a href="/au">New Grid Australia</a>
+                </li>
+              </MainNavList>
+            </nav>
+            <nav>
+              <MainNavHeading>Careers</MainNavHeading>
+              <MainNavList>
+                <li>
+                  <a href="/pos">Open Positions</a>
+                </li>
+                <li>
+                  <a href="/team">Meet the team</a>
+                </li>
+                <li>
+                  <a href="/culture">Company Culture</a>
+                </li>
+              </MainNavList>
+            </nav>
+            <nav>
+              <MainNavHeading>Legal and Privacy</MainNavHeading>
+              <MainNavList>
+                <li>
+                  <a href="/privacy">Privacy Policy</a>
+                </li>
+                <li>
+                  <a href="/🍪">Use of cookies</a>
+                </li>
+                <li>
+                  <a href="/manage">Manage cookies</a>
+                </li>
+                <li>
+                  <a href="/legal">Legal notice</a>
+                </li>
+                <li>
+                  <a href="/tos">Terms and Conditions</a>
+                </li>
+              </MainNavList>
+            </nav>
+          </MainNavArea>
+        </TopGridWrapper>
       </MaxWidthWrapper>
       <SubfooterWrapper>
         <MaxWidthWrapper>
-          <Subfooter>
-            <Logo href="/">New Grid Times</Logo>
-            <Disclaimer>
-              © 2021 Fake Company Ltd. All Rights Reserved
-            </Disclaimer>
-          </Subfooter>
+          <BottomGridWrapper>
+            <Subfooter>
+              <Logo href="/">New Grid Times</Logo>
+              <Disclaimer>
+                © 2021 Fake Company Ltd. All Rights Reserved
+              </Disclaimer>
+            </Subfooter>
+          </BottomGridWrapper>
         </MaxWidthWrapper>
       </SubfooterWrapper>
     </Wrapper>
@@ -135,11 +139,21 @@ const Wrapper = styled.footer`
   font-family: var(--font-family-sans-serif);
 `;
 
+const TopGridWrapper = styled.div`
+  display: grid;
+  grid-template-areas:
+    'toprow toprow toprow toprow'
+    'mainnav mainnav mainnav mainnav';
+  grid-template-columns: repeat(auto-fill, 1fr);
+`;
+
 const TopRow = styled.div`
+  grid-area: toprow;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  justify-content: flex-end;
   align-items: center;
-  gap: 16px;
+  gap: 64px;
   color: var(--color-gray-300);
   font-size: 0.875rem;
   border-bottom: 1px solid var(--color-gray-700);
@@ -165,11 +179,12 @@ const TopNavList = styled.ul`
 `;
 
 const MainNavArea = styled.div`
-  display: flex;
-  flex-direction: column;
+  grid-area: mainnav;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
   gap: 32px;
   padding: 32px 0 48px;
-  text-align: center;
+  text-align: left;
 `;
 
 const MainNavHeading = styled.h2`
@@ -195,7 +210,13 @@ const SubfooterWrapper = styled.div`
 const Subfooter = styled.div`
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
+  justify-self: start;
+`;
+
+const BottomGridWrapper = styled.div`
+  display: grid;
+  grid-template-columns: 1fr;
 `;
 
 const Logo = styled.a`
